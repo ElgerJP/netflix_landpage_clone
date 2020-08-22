@@ -1,0 +1,252 @@
+h1 {
+	font-size: 1.75rem;
+}
+
+h2 {
+	font-size: 1.125rem;
+	margin: 1rem auto;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+.red-btn {
+	padding: 0.2rem 0.5rem;
+	background-color: rgb(229, 09, 20);
+	border-radius: 3px;
+	display: inline-block;
+	white-space: nowrap;
+	color: rgb(255, 255, 255);
+}
+
+/* Showcase */
+
+#showcase {
+	height: 550px;
+}
+
+#showcase .showcase-container {
+	height: 550px;
+}
+
+#showcase .showcase-header {
+	margin: 1.7rem 1rem 0 1rem;
+}
+
+#showcase .showcase-header img {
+	width: 89px;
+	height: 24px;
+}
+
+#showcase .showcase-content {
+	margin-top: 5rem;
+}
+
+#showcase .showcase-content .showcase-content-box {
+	width: auto;
+}
+
+#showcase .showcase-content .box3 {
+	width: 300px;
+}
+
+#showcase .showcase-content .form-email {
+	margin-top: 0.5rem;
+	display: flex;
+	flex-flow: column;
+	align-content: center;
+	justify-content: center;
+	width: auto;
+	height: 100%;
+}
+
+#showcase .showcase-content input {
+	border: none;
+	height: 3rem;
+	width: 100%;
+	margin: auto;
+	justify-self: center;
+	margin-bottom: 1rem;
+}
+
+#showcase .showcase-content .form-email .form-email-box1 {
+	width: 120%;
+	height: 100%;
+
+	display: flex;
+	align-self: center;
+}
+#showcase .showcase-content .form-email .form-email-box2 {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+#showcase .showcase-content button {
+	width: 15rem;
+	height: 2.5rem;
+	background-color: rgb(229, 09, 20);
+	border: none;
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+}
+
+#showcase .showcase-content .showcase-content-box h1 {
+	line-height: 30px;
+}
+
+/* Features */
+
+#features {
+	height: auto;
+}
+
+#features .features-container {
+	flex-flow: column;
+	width: auto;
+	height: auto;
+	margin: 0 0;
+	padding: 30px 30px;
+}
+
+#features .features-container .feature-text {
+	width: auto;
+}
+
+#features .features-container .feature-img {
+	width: auto;
+}
+
+#features .features-container .feature-img img {
+	width: 100%;
+}
+
+#features .features-container .feature-text h1 {
+	font-size: 1.625rem;
+	text-align: center;
+}
+#features .features-container .feature-text h2 {
+	font-size: 1.125rem;
+	text-align: center;
+	font-weight: 300;
+}
+
+#features .features-opposite .feature-img {
+	order: 2;
+	width: 250px;
+}
+#features .features-opposite .feature-img img {
+	width: 100%;
+	text-align: center;
+}
+
+/* FAQ */
+
+#faq {
+	border: none;
+}
+
+#faq h1 {
+	margin: 1rem;
+	font-size: 1.625rem;
+	text-align: center;
+}
+
+#faq .faq-bg {
+	border-top: rgb(34, 34, 34) solid 0.5rem;
+	width: auto;
+	height: 950px;
+}
+
+#faq .faq-container {
+	background-color: rgb(48, 48, 48);
+	width: 23.4375rem;
+	margin: 2rem;
+	margin-bottom: 3rem;
+}
+
+#faq label {
+	display: block;
+	cursor: pointer;
+	padding: 0.2rem 2.2rem;
+	border-bottom: 0.5rem solid #000;
+	width: 100%;
+}
+
+#faq ul ul li {
+	padding: 1rem;
+	background: rgb(48, 48, 48);
+	border-bottom: #000 solid 0.5rem;
+}
+
+#faq .faq-bg .form-email {
+	margin-top: 1rem;
+	display: flex;
+	flex-flow: column;
+	align-content: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+}
+
+#faq .faq-bg .form-email .form-email-box1 {
+	width: 120%;
+	height: auto;
+
+	display: flex;
+	align-self: center;
+}
+#faq .faq-bg .form-email .form-email-box2 {
+	width: 100%;
+	height: auto;
+}
+
+#faq .faq-bg input {
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 1rem;
+	border: none;
+}
+#faq .faq-bg button {
+	width: 15rem;
+	height: 2.5rem;
+	background-color: rgb(229, 09, 20);
+	border: none;
+	border-radius: 3px;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+}
+#faq .faq-bg button:hover {
+	cursor: pointer;
+}
+
+#faq .form-email {
+	margin: 0;
+	width: 100%;
+}
+
+#faq h3 {
+	text-align: center;
+	width: 20rem;
+}
+
+/* Footer */
+
+#main-footer .footer-final {
+	margin: 1rem;
+}
+
+#main-footer .footer-list {
+	margin: 1rem;
+	padding: 0;
+}
+
+#main-footer .footer-top {
+	white-space: nowrap;
+}
